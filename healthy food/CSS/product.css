@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Slike/1119000.jpg);
+     background-size:cover;
+     background-attachment: fixed;
+     font-family: Arial, Helvetica, sans-serif;
+}
+header{
+     width: 100%;
+     height: 80px;
+ }
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px ;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000
+}
+.logo{
+    position: relative;
+    left: 60px;
+    width: 140px;
+    height: 70px;
+    float: left;
+}
+.logo a{
+  position: absolute;
+  width: 120px;
+  height: 70px;
+}
+.logo img {
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+}
+.container {
+    position: relative;
+    height: 550vh;
+    margin: 0;
+    padding: 30px;
+    border: 0;
+    margin:0 auto;
+    margin-bottom: 200px;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+  color: white;
+    text-align: center;
+    margin: 20px;
+    line-height: 37px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 100;
+    padding: 20px;
+}
+p{
+line-height: 20px
+}
+.btn{
+  margin-top: 32px; 
+  width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid white;
+    padding-bottom: 2px;
+    color: white;
+    font-size: 14pt;
+    transition: 0.6s ease;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.6 ease;
+}
+.card1 img{
+  width: 300px;
+
+}
+.card2 img{
+  width: 300px;
+
+}
+.card3 img{
+  width: 300px;
+
+}
+.card4 img{
+  width: 300px;
+
+}
+.card5 img{
+  width: 300px;
+
+}
+.card6 img{
+  width: 300px;
+
+}
+footer{
+  color: white;
+  width: 100%;
+  height: 50px;
+  background-color:rgba(0,0,0,0.7);
+  text-align: center;
+  padding-top: 25px;
+  display: block;
+
+}
+
+.eng,.srb{
+  color: white;
+    padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+.srb:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.6s ease;
+}
+.eng:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.6s ease;
+}
+.lang .srb a:hover{
+  color: #000;
+  
+
+}
+.lang .eng a:hover{
+  color: #000;
+}
+.lang{
+      float: right;
+    text-align: center;
+    display: inline-flex;
+    position: fixed;
+    left: 85%;
+    bottom: 15px;
+}
+.srb a{
+  text-decoration: none;
+  color: #fff;
+}
+.eng a{
+  text-decoration: none;
+  color: #fff;
+}

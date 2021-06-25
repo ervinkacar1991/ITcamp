@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Slike/1119000.jpg);
+     background-size:cover;
+     background-attachment: fixed;
+     font-family: Arial, Helvetica, sans-serif;
+}
+header{
+     width: 100%;
+     height: 80px;
+ }
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px ;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000
+}
+.logo{
+    position: relative;
+    left: 60px;
+    width: 140px;
+    height: 70px;
+    float: left;
+}
+.logo a{
+  position: absolute;
+  width: 120px;
+  height: 70px;
+}
+.logo img {
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+}
+/*SHOWCASE SHOWCAES SHOWCASE*/
+
+.container {
+    position: relative;
+    width: 50%;
+    height: 65vh;
+    margin: 0;
+    padding: 30px;
+    border: 0;
+    margin:0 auto;
+    margin-bottom: 60px;
+}
+
+.container .showcase {
+    width: 80%;
+    height: 100vh;
+    margin: 0;
+    padding: 30px;
+    border: 0;
+    margin:0 auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.container .showcase-area{
+    width: 50%;
+    margin:0 auto;
+    margin-top: 0px;
+    padding:8px 15px;
+    color: white;
+    width: 225px;
+    margin-right: 200px;
+    /* position: initial; */
+    margin-left: 190px
+}
+.container .showcase-area h1{
+    text-align: center;
+}
+
+.form-control{
+    display:block;
+    width:100%;
+    background-attachment: red;
+}
+.form-control input, .form-control textarea{
+  display: table;
+  font-size: 12pt;
+  color: white;
+  border: solid 2px white;
+  line-height: 40px;
+  outline: none;
+  padding: 0 1em;
+  margin-left: 140px;
+    margin-right: 150px;
+    margin-top: 20px;
+    width: 300px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+.input-container label{
+    display:block;
+}
+.form-control .msg{
+    font-style:italic;
+    font-size:0.8em;
+    color:red;
+    text-transform: lowercase;
+    display: inline-block;
+    padding:3px 8px;
+    width: 330px;
+position: relative;
+left: 95px;
+}
+.form-control input:focus, .form-control input:active
+{
+    color:rgba(  2,119,189,1);
+    border:none;
+    outline:none;
+    border-bottom:1px solid rgba(  2,119,189,1);
+}
+form input[type=submit]{
+    padding:5px 13px;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    border-radius:3px;
+    background-color: rgba(2,119,189,0.6);
+    color:#343434;
+    margin-top:15px;
+    transition: all 0.3s ease-in-out;
+}
+form input[type=submit]:hover{
+    color:#111;
+    background-color:rgba(2,119,189,1);
+}
+
+.form-control.greska input {
+  border: solid 2px #D60101;
+
+}
+.form-control.ispravno input {
+  border: solid 2px #2ecc71;
+}
+
+.form-control.greska textarea {
+  border: solid 2px #D60101;
+
+}
+.form-control.ispravno textarea {
+  border: solid 2px #2ecc71;
+}
+.form-control i {
+	visibility: hidden;
+  position: relative;
+right: -435px;
+}
+.form-control.greska i.fa-exclamation-circle {
+	color: #D60101;
+	visibility: visible;
+}
+.form-control.ispravno i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.button {
+
+}
+.btn{
+  border: 1px solid #80d482;
+  background-color: #80d482;
+  padding: 10px 30px;
+  color: white;
+  position: relative;
+  left: 50%;
+  top:20px;
+  text-decoration: none;
+  font-size: 13pt;
+  font-family: sans-serif;
+  border-radius: 5px;
+  transition: 0.6s ease;
+  transform: translate(-50%, -50%);
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000
+}
+.showcase-area span{
+  color: #2ecc71;
+}
+
+footer{
+  color: white;
+  width: 100%;
+  height: 50px;
+  background-color:rgba(0,0,0,0.7);
+  text-align: center;
+  padding-top: 25px;
+  display: block;
+
+}
+.eng,.srb{
+  color: white;
+    padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+.srb:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.6s ease;
+}
+.eng:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.6s ease;
+}
+.lang .srb a:hover{
+  color: #000;
+  
+
+}
+.lang .eng a:hover{
+  color: #000;
+}
+.lang{
+      float: right;
+    text-align: center;
+    display: inline-flex;
+    position: fixed;
+    left: 85%;
+    bottom: 15px;
+}
+.srb a{
+  text-decoration: none;
+  color: #fff;
+}
+.eng a{
+  text-decoration: none;
+  color: #fff;
+}
+

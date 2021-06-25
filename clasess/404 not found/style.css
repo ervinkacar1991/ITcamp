@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2F3230;
+    line-height: 1.428571429;
+    padding: 0;
+    margin: 0;
+}
+section, footer {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+.naslov{
+    color: #CCCCCC;
+}
+.broj {
+    font-size: 900%;
+}
+.broj2 {
+    font-size: 450%;
+}
+.contact,
+.contact2 {
+    color: #000000;
+    font-size: 17px;
+}
+.drugideo {
+    background-repeat: no-repeat;
+    background-color: #293A4A;
+    color: #FFFFFF;
+    
+}
+.drugideo a {
+    color: #FFFFFF;
+}
+.drugideo2 {
+    padding: 20px 0;
+    min-height: 190px;
+    height: 150px;
+}
+.contact {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.contact a {
+    text-decoration: underline;
+    color: #428BCA;;
+}
+.contact a:hover,
+.contact a:focus,
+.contact a:active {
+    color: #2A6496;
+}
+.contact2{
+    margin: 20px 0;
+    font-size: 16px;
+}
+ul {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    float: left;
+    text-align: center;
+}
+.drugideo2 ul li {
+    width: 100%;
+}
+.image {
+    padding: 5px;
+}
+.info {
+    font-weight: bold;
+    text-align: left;
+    word-break: break-all;
+      width: 100%;
+}
+.info2 address {
+    text-align: left;
+}
+footer {
+    text-align: center;
+    margin: 60px 0;
+}
+footer a {
+    text-decoration: none;
+}
+footer a img {
+    border: 0;
+}
+.copyright {
+    font-size: 10px;
+    color: #3F4143;
+}
+.drugideo {
+    position: relative;
+    overflow: hidden;
+    background-image: none;
+}
+.drugideo2 {
+    padding: 20px;
+}
+
+.drugideo2 ul li {
+    width: 100%;
+    text-align: left;
+}
+.drugideo2 ul li:first-child {
+    padding: 30px;
+}
+.contact2 {
+    font-size: 18px;
+}
+.contact{
+    font-size: 18px;
+}
+.image{
+    float: left;
+}
+.info {
+    margin: 62px 0 0 98px;
+}
+.info2 address {
+text-align: left;
+position: absolute;
+right: 0;
+bottom: 0;
+margin: 0 10px;
+}
+.container {
+    width: 70%;
+}

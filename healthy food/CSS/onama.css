@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Slike/1119000.jpg);
+     background-size:cover;
+     background-attachment: fixed;
+     font-family: Arial, Helvetica, sans-serif;
+}
+header{
+     width: 100%;
+     height: 80px;
+ }
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px ;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000
+}
+.logo{
+    position: relative;
+    left: 60px;
+    width: 140px;
+    height: 70px;
+    float: left;
+}
+.logo a{
+  position: absolute;
+  width: 120px;
+  height: 70px;
+}
+.logo img {
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+}
+/*SHOWCASE SHOWCAES SHOWCASE*/
+
+.conteiner {
+    position: relative;
+    margin: 0;
+    padding: 30px;
+    border: 0;
+    margin:0 auto;
+    margin-bottom: 60px;
+    color: white;
+}
+.card1,.card2,.card3{
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+    line-height: 35px;
+    margin-bottom: 30px;
+
+}
+.card2{
+  text-align: right;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+td{
+  padding: 20px
+}
+footer{
+  color: white;
+  width: 100%;
+  height: 50px;
+  background-color:rgba(0,0,0,0.7);
+  text-align: center;
+  padding-top: 25px;
+  display: block;
+
+}
+.eng,.srb{
+  color: white;
+    padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+.srb:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.6s ease;
+}
+.eng:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.6s ease;
+}
+.lang .srb a:hover{
+  color: #000;
+  
+
+}
+.lang .eng a:hover{
+  color: #000;
+}
+.lang{
+      float: right;
+    text-align: center;
+    display: inline-flex;
+    position: fixed;
+    left: 85%;
+    bottom: 15px;
+}
+.srb a{
+  text-decoration: none;
+  color: #fff;
+}
+.eng a{
+  text-decoration: none;
+  color: #fff;
+}
