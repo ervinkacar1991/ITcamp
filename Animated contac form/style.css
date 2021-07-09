@@ -67,3 +67,14 @@ textarea:valid~label{
 .row .input-group{
     flex-basis: 48%;
 }
+
+
+
+
+@media screen and (max-width:600px){
+    .row{
+     flex-direction: column;
+    }
+    .input-group, input{
+    
+}
