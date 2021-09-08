@@ -32,7 +32,7 @@ console.log('end');   */
 
 
 
-console.log("start");
+  /* console.log("start");
 
 
 function loginUser(email,password, callback){
@@ -44,6 +44,38 @@ function loginUser(email,password, callback){
 
 const user = loginUser ("kacarervin@gmail.com", 123445, (user)=>{
 console.log(user);
+});
+
+
+console.log("finish");    */
+
+  // more async example
+
+console.log("start");
+
+
+function loginUser(email,password, callback){
+    setTimeout(()=>{
+        console.log("Now we have the data");
+        callback ({userEmail: email});
+    },3000);
+}
+function getUserVideos(email,callback){
+  setTimeout(()=>{
+callback (["video1", "video2", "video3"]);
+  },2000);
+}
+function videoDetails(email,callback){
+    setTimeout(()=>{
+  callback ("title of a video");
+    },2000);
+  }
+
+const user = loginUser ("kacarervin@gmail.com", 123445, (user)=>{
+console.log(user);
+getUserVideos(user.userEmail, videos => {
+console.log(videos);
+});
 });
 
 
