@@ -16,7 +16,7 @@ console.log('end');   */
 
 //Async code xample 
 
-console.log('start'); 
+ /* console.log('start'); 
 
 setTimeout(()=>{
 console.log('we are in the timeouc');
@@ -28,4 +28,23 @@ items.forEach(item=>{
 console.log(item);
 });
 
-console.log('end'); 
+console.log('end');   */
+
+
+
+console.log("start");
+
+
+function loginUser(email,password, callback){
+    setTimeout(()=>{
+        console.log("Now we have the data");
+        callback ({userEmail: email});
+    },5000)
+}
+
+const user = loginUser ("kacarervin@gmail.com", 123445, (user)=>{
+console.log(user);
+});
+
+
+console.log("finish");
