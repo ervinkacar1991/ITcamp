@@ -23,7 +23,7 @@ promise.then(user =>{
 }).catch(err => console.log(err.message));   */
 
 
-console.log("start");
+ /* console.log("start");
 
 
 function loginUser(email,password, callback){
@@ -62,4 +62,29 @@ loginUser("ed", "bumba")
 .then(videos => videoDetails(videos[0]))
 .then(detail => console.log(detail));
 
-console.log("finish");
+console.log("finish"); */
+
+
+const hasMeeting = false;
+const meeting = new Promise ((resolve, reject)=>{
+if(!hasMeeting){
+    const meetingDetails = {
+        name: 'Marketing Meeting',
+        location: 'skype',
+        time: '1:00 PM'
+    }
+    resolve(meetingDetails);
+} else {
+    reject(new Error ('Meeting already scheldued'))
+}
+});
+
+meeting.then(res =>{
+//resolve data
+ console.log('meeting scheldued');
+ console.log(res);
+})
+.catch (err =>{
+ //reject data
+ console.log(err.message);
+})
