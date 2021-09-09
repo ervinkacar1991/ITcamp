@@ -65,7 +65,7 @@ loginUser("ed", "bumba")
 console.log("finish"); */
 
 
-const hasMeeting = false;
+  /*  const hasMeeting = false;
 const meeting = new Promise ((resolve, reject)=>{
 if(!hasMeeting){
     const meetingDetails = {
@@ -87,4 +87,17 @@ meeting.then(res =>{
 .catch (err =>{
  //reject data
  console.log(err.message);
-})
+})    */
+
+
+const promise1 = Promise.resolve('Promise 1 complete');
+const promise2 = new Promise((res, rej)=>{
+    setTimeout(()=>{
+         res('Promise 2 complete');
+    },2000);
+});
+//  promise1.then(res => console.log(res));
+//  promise2.then(res => console.log(res));
+
+
+Promise.all([promise1, promise2]).then(res => console.log(res));
