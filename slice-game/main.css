@@ -68,3 +68,6 @@
  .img-holder-3{
      flex-basis: 25%;
  }
+ .finished {
+     color: gold;
+ }
